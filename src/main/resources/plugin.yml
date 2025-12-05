@@ -1,0 +1,14 @@
+name: OperatorLogin
+version: '0.1.0'
+main: org.heypers.operatorLogin.OperatorLogin
+api-version: '1.21'
+authors: [ mr_fortuna ]
+description: PluginLogin
+website: https://www.heypers.org/
+commands:
+  login:
+    description: Login command
+    usage: /login <password>
+  register:
+    description: Register command
+    usage: /register <password>
